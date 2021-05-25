@@ -1,0 +1,9 @@
+credentials:
+  admin: &credentials
+    user: user
+    password: 123qwe
+localhost:
+  ssh: &localhost
+    host: 127.0.0.0
+    port: 22
+    <<: *credentials

@@ -1,0 +1,65 @@
+PATH
+  remote: .
+  specs:
+    olympus_common (0.1.0)
+      logging (~> 2.2, >= 2.2.2)
+      yaml_extend (~> 1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.1)
+    deep_merge (1.2.1)
+    diff-lcs (1.4.4)
+    little-plugger (1.1.4)
+    logging (2.3.0)
+      little-plugger (~> 1.1)
+      multi_json (~> 1.14)
+    multi_json (1.15.0)
+    parallel (1.19.2)
+    parser (3.0.1.1)
+      ast (~> 2.4.1)
+    rainbow (3.0.0)
+    rake (13.0.3)
+    regexp_parser (2.1.1)
+    rexml (3.2.4)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.1)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.2)
+    rubocop (1.15.0)
+      parallel (~> 1.10)
+      parser (>= 3.0.0.0)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml
+      rubocop-ast (>= 1.5.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 3.0)
+    rubocop-ast (1.5.0)
+      parser (>= 3.0.1.1)
+    ruby-progressbar (1.10.1)
+    unicode-display_width (1.7.0)
+    yaml_extend (1.1.1)
+      deep_merge (~> 1.1)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  olympus_common!
+  rake (~> 13.0)
+  rspec (~> 3.5)
+  rubocop (~> 1.7)
+
+BUNDLED WITH
+   2.2.16
